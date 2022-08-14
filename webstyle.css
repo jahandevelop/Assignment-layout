@@ -1,0 +1,165 @@
+/* css styling*/
+
+* {
+box-sizing: border-box;    
+
+}
+
+body {
+height: 1000px;
+width: 960px;
+background-color: #ffffff;
+margin: 30px;
+}
+
+/*.site-wrapper {
+    background-color: #ffffff;
+    height: 1000px;
+  width: 960px;
+
+}*/
+/*header section*/
+
+header {
+    min-height: 180px;
+    max-width: 900px;
+    background-color: #676767;
+    margin-bottom: 20px;
+}
+
+.header_container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding : 10px ;
+}
+
+.logo {
+    height: 160px;
+    width: 300px;
+    background-color: #999999;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.contactinfo {
+    height: 160px;
+    width: 300px;
+    background-color: #999999;
+    text-align: right;
+    padding: 20px;
+    font-family:  Arial,Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+
+    
+}
+/* section container*/
+.section_container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    
+}
+.navigation_container {
+    background-color: #999999;
+    width: 240px;
+    height: 700px;
+   padding: 10px;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+   
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+     }
+/* sylist bullet list with arrow symbol*/
+
+     ul.arrow {
+    list-style: none;
+    }
+    
+    ul.arrow li:before {
+    color: #fff;
+    content: "\003E  ";
+
+    }
+/* Gallery Conainer*/    
+
+.itemcontainer {
+    height: 700px;
+    width: 640px
+}
+
+.galleryitem {
+height: 50px;
+width: 640px;
+background-color: #cccccc;
+padding: 10px ;
+
+}
+
+
+.gallery-container {
+    height: 650px;
+    width: 640px;
+    background-color: #cccccc;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    gap: 10px;
+    
+}
+.gallery-container *> img {
+    height: 150px;
+    width: 150px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+.person {
+    height: 300px;
+    width: 200px;
+    
+    margin-bottom: 10px;
+    text-align: justify;
+
+}
+figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.gallery-container *> p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #5d6d7e;
+
+}
+
+/*footer section*/
+footer {
+    max-width: 900px;
+    min-height: 40px;
+    background-color: #676767;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
